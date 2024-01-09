@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body>
+    <h1>Registration</h1>
+    <form action="https://jsonplaceholder.typicode.com/posts" method="post">
+        <label>
+            <p>First name:</p>
+            <input type="text" name="first_name" placeholder="First name" required>
+        </label>
+        <label>
+            <p>Last name:</p>
+            <input type="text" name="last_name" placeholder="Last name" required>
+        </label>
+        <label>
+            <p>E-mail:</p>
+            <input type="email" name="email" placeholder="E-mail" required>
+        </label>
+        <label>
+            <p>Password:</p>
+            <input type="password" name="password" placeholder="******" required>
+        </label>
+        <label>
+            <p>Gender:</p>
+            <select name="gender">
+                <option value="male">male</option>
+                <option value="female">female</option>
+                <option value="other">other</option>
+            </select>
+        </label>
+        <label>
+            <p>Date of birth:</p>
+            <input type="date" name="birthdate" placeholder="date of birth">
+        </label>
+        <label>
+            <input type="checkbox" name="agree_checkbox">
+            Agreement to terms of use
+        </label>
+        <button>sign up</button>
+    </form>
+</body>
+</html>
